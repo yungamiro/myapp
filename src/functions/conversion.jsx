@@ -20,7 +20,7 @@ const Conversion = () => {
     setCelsiustoF(inputValue.toString());
 
     if (inputValue !== "") {
-      let eventMessage = parseFloat(inputValue);
+      let eventMessage = Math.round(inputValue);
       let celsiustoF = (eventMessage * 9) / 5 + 32;
       setCelsiustoF(celsiustoF.toFixed(2).toString());
     } else {
@@ -33,7 +33,7 @@ const Conversion = () => {
     setfahrenheintoC(fahValue.toString());
 
     if (fahValue !== "") {
-      let fahMessage = parseFloat(fahValue);
+      let fahMessage = Math.round(fahValue);
       let fahrenheintoC = ((fahMessage - 32) * 5) / 9;
       setfahrenheintoC(fahrenheintoC.toFixed(2).toString());
     } else {

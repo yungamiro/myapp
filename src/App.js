@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <div className="class"></div>
 
-      {/* <CalculMoyenne />
+      <CalculMoyenne />
       <Conversion />
       <Vowels />
-      < MyTable /> */}
+      < MyTable />
       <FibonacciLogic />
     </div>
   );
