@@ -4,16 +4,18 @@ import Conversion from "./functions/conversion";
 import Vowels from "./functions/Vowels"
 import MyTable from "./table/table";
 import FibonacciLogic from "./functions/fibonacci";
+import Capitalize from "./functions/capitalize";
 
 function App() {
   return (
     <div className="App">
       <div className="class"></div>
-      {/* <CalculMoyenne />
+      <CalculMoyenne />
       <Conversion />
       <Vowels />
-      <MyTable /> */}
+      <MyTable />
       <FibonacciLogic />
+      <Capitalize />
     </div>
   );
 }
